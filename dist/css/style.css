@@ -1,0 +1,14 @@
+.style-1 {
+  position: relative;
+  width: 250px;
+  height: 100px;
+  background-color: transparent;
+  border-color: 2px solid #fdd835; }
+  .style-1:after {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    width: 250px;
+    height: 100px;
+    background-color: #009688; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zY3NzL3N0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0E7RUFDQyxtQkFBa0I7RUFDbEIsYUFBWTtFQUNaLGNBQWE7RUFDYiw4QkFBNkI7RUFDN0IsZ0NBUGUsRUFnQmY7RUFkRDtJQU9FLG1CQUFrQjtJQUNsQixXQUFVO0lBQ1YsV0FBVTtJQUNWLGFBQVk7SUFDWixjQUFhO0lBQ2IsMEJBZlksRUFnQloiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

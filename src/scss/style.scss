@@ -1,0 +1,18 @@
+$teal: #009688;
+$yellow: #fdd835;
+
+.style-1 {
+	position: relative;
+	width: 250px;
+	height: 100px;
+	background-color: transparent;
+	border-color: 2px solid $yellow;
+	&:after {
+		position: absolute;
+		left: 10px;
+		top: -10px;
+		width: 250px;
+		height: 100px;
+		background-color: $teal;
+	}
+}
