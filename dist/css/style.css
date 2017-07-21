@@ -1,14 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Overpass", sans-serif; }
+
+a {
+  text-decoration: none; }
+
 .style-1 {
   position: relative;
-  width: 250px;
-  height: 100px;
-  background-color: transparent;
-  border-color: 2px solid #fdd835; }
-  .style-1:after {
+  background-color: rgba(249, 119, 148, 0.3);
+  border: 1px solid #F97794;
+  padding: 0.5em 1em;
+  margin: 10px;
+  color: #fff; }
+  .style-1:before {
+    width: 100%;
+    height: 100%;
+    content: '';
     position: absolute;
-    left: 10px;
-    top: -10px;
-    width: 250px;
-    height: 100px;
-    background-color: #009688; }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zY3NzL3N0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBR0E7RUFDQyxtQkFBa0I7RUFDbEIsYUFBWTtFQUNaLGNBQWE7RUFDYiw4QkFBNkI7RUFDN0IsZ0NBUGUsRUFnQmY7RUFkRDtJQU9FLG1CQUFrQjtJQUNsQixXQUFVO0lBQ1YsV0FBVTtJQUNWLGFBQVk7SUFDWixjQUFhO0lBQ2IsMEJBZlksRUFnQloiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+    right: -0.25em;
+    top: -0.25em;
+    background-image: linear-gradient(135deg, #F97794 0%, #623AA2 100%);
+    z-index: -1; }
+  .style-1:hover:before {
+    left: 0;
+    top: 0; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zY3NzL3N0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZ0VBQVk7QUFHWjtFQUNDLCtCQUFzQjtVQUF0Qix1QkFBc0IsRUFDdEI7O0FBRUQ7RUFDQyxvQ0FQa0MsRUFRbEM7O0FBRUQ7RUFDQyxzQkFBcUIsRUFDckI7O0FBRUQ7RUFDQyxtQkFBa0I7RUFDbEIsMkNBQXdDO0VBQ3hDLDBCQUF5QjtFQUN6QixtQkFBa0I7RUFDbEIsYUFBWTtFQUNaLFlBQVcsRUFpQlg7RUF2QkQ7SUFRRSxZQUFXO0lBQ1gsYUFBWTtJQUNaLFlBQVc7SUFDWCxtQkFBa0I7SUFDbEIsZUFBYztJQUNkLGFBQVk7SUFDWixvRUFBb0U7SUFDcEUsWUFBVyxFQUNYO0VBaEJGO0lBbUJHLFFBQU87SUFDUCxPQUFNLEVBQ04iLCJmaWxlIjoic3R5bGUuY3NzIn0= */
